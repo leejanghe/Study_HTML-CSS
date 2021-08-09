@@ -14,3 +14,5 @@
 ### 약간 중급?
 - [CSS / 웹폰트](./HTML-CSS정리/웹폰트.md)
 - [HTML / head 태그](./HTML-CSS정리/head태그.md)
+- [HTML / flexbox](./HTML-CSS정리/flexbox.md)
+- [HTML / 반응형](./HTML-CSS정리/반응형.md)
