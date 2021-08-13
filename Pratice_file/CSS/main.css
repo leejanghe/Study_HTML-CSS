@@ -35,6 +35,17 @@
     padding: 30px;
 }
 
+.des i {
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    padding-top: 25px;
+    border-radius: 50%;
+    color: rgb(174, 219, 201);
+    
+}
+
 
 @media screen and (max-width:568px) {
     
@@ -51,5 +62,8 @@
 
     .item{
         padding: 10px;
+    }
+    .des i {
+        background-color: rgb(145, 127, 228);
     }
 }
