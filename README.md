@@ -17,7 +17,7 @@
 - [CSS / 셀렉터](./HTML-CSS정리/셀렉터.md)
 - [CSS / 웹폰트](./HTML-CSS정리/웹폰트.md)
 - [CSS / transform](./HTML-CSS정리/transform.md)
-- [CSS / sticky](./sticky/sticky.md)
+- [CSS / sticky](./HTML-CSS정리/sticky.md)
 
 
 ### JQuery
