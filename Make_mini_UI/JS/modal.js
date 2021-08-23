@@ -21,3 +21,10 @@ $('#btn-close').on('click',()=>{
 // btnClose.addEventListener("click", ()=>{
 //     showbg.style.display="none"
 // }); 
+
+$('#login').on('click',()=>{
+    if($('.dd').val() ==='안녕'){
+        $('.black-bc').fadeIn();
+    }
+    
+})
