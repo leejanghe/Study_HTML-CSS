@@ -22,3 +22,5 @@
 
 ### JQuery
 - [JQ / 설치](./JQuery/J쿼리설치.md)
+- [JQ / JQ기본문법](./JQuery/JQ기본문법.md)
+- [JQ / JQ유용한 함수](./JQuery/JQ함수.md)

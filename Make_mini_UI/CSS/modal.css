@@ -1,0 +1,24 @@
+.main-background{
+    background-image: url(/Make_mini_UI/img/modal_img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    border-radius: 0px;
+}
+
+.black-bc{
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.white-bc{
+    background: white;
+    width:80%;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
