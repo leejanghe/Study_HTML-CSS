@@ -26,7 +26,7 @@
     text-align: center;
 }
 
-.navbar-item {
+.navbar-item, .btn{
     transition: all 1s;
     transform: translateX(-400px);
     padding: 5px;
@@ -36,4 +36,42 @@
     transform: translateX(0px);
 }
 
+.navbar:hover .btn{
+    transform: translateX(0px);
+}
 
+
+/* btn  */
+
+.btn {
+    padding: 15px;
+    border-radius: 5px;
+    background: rgb(12, 11, 11);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+
+.btn:hover{
+    animation-name: test;
+    animation-duration: 1s;
+}
+
+
+@keyframes test{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(-20px);
+    }
+    50%{
+        transform: translateX(20px);
+    }
+    75%{
+        transform: translateX(-20px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}

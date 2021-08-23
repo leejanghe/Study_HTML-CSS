@@ -39,7 +39,14 @@ transform은 어떤 요소를 독립적으로 움직이게 만들고 싶을 때 
 
 움직이는 버튼 만들어보기
 
+```js
+/* html */
+<button class="btn">button</button>
+```
+
+
 ```css
+/* css */
 .btn {
     padding: 30px;
     border-radius: 5px;
