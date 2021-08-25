@@ -7,6 +7,24 @@ $('#btn-close').on('click',()=>{
     $('.black-bc').fadeOut();
 })
 
+$('form').on('submit',(e)=>{
+    if($('#email').val()===''){
+        e.preventDefault();
+        $('#email-alert').show()
+    }
+    if($('#password').val()===''){
+        e.preventDefault();
+        $('#password-alert').show()
+    }else{
+        alert('로그인이 완료되었습니다!')
+        $('#email-alert').hide()
+        $('#password-alert').hide()
+        $('.black-bc').fadeOut();
+    }
+    
+})
+
+
 //.hide, show, slideDown, slideUp
 
 // // 일반적인 자바스크립트로 구현하기
@@ -22,9 +40,11 @@ $('#btn-close').on('click',()=>{
 //     showbg.style.display="none"
 // }); 
 
-$('#login').on('click',()=>{
-    if($('.dd').val() ==='안녕'){
-        $('.black-bc').fadeIn();
-    }
+// if 문으로 해보기
+
+// $('#login').on('click',()=>{
+//     if($('.dd').val() ==='안녕'){
+//         $('.black-bc').fadeIn();
+//     }
     
-})
+// })
