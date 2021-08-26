@@ -25,3 +25,4 @@
 - [JQ / JQ기본문법](./JQuery/JQ기본문법.md)
 - [JQ / JQ유용한 함수](./JQuery/JQ함수.md)
 - [JQ / value값 가져오기](./JQuery/input_val가져오기.md)
+- [JQ / 애니메이션 효과](./JQuery/애니매이션.md)
