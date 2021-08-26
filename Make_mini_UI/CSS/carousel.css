@@ -1,0 +1,33 @@
+.slide-container{
+    width: 400vw;
+    transform: translateX(0vw);
+    transition: transform 1s;
+}
+
+.slide-box {
+    width: 100vw;
+    float: left;
+}
+
+.slide-box img{
+    width: 100%;
+}
+
+
+/* 캐러셀 2버튼 */
+
+.slide-next {
+    position: absolute;
+    top :45%;
+    right:0;
+    font-size: 1.5rem;
+    border-radius: 10px
+}
+
+.slide-before{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    font-size: 1.5rem;
+    border-radius: 10px
+}
